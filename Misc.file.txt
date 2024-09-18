@@ -1,0 +1,2 @@
+datetimectl list-timezones | grep 
+datetimectl set-timezone from grep
