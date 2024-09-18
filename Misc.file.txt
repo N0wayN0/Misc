@@ -1,2 +1,9 @@
 datetimectl list-timezones | grep 
 datetimectl set-timezone from grep
+
+CODE: SELECT ALL
+$ aplay -l
+$ amixer
+$ pacmd list-sinks
+(Should work now you are using PulseAudio.)
+# dmesg | grep 'sof\|snd\|audio\|firmware'
