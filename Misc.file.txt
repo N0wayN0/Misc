@@ -7,3 +7,8 @@ $ amixer
 $ pacmd list-sinks
 (Should work now you are using PulseAudio.)
 # dmesg | grep 'sof\|snd\|audio\|firmware'
+
+sudo apt install sysbench
+sysbench cpu run
+grep processor /proc/cpuinfo | wc -l
+sysbench cpu run --threads=<threads>
